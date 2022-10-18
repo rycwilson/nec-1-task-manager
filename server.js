@@ -6,7 +6,7 @@ import { notFound } from './middleware/not-found.js'
 import errorHandler from './middleware/errors.js'
 
 const app = express()
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8000
 
 dotenv.config()
 
